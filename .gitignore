@@ -1,0 +1,42 @@
+*.keystore
+local.properties
+pipejump/.settings/
+pipejump/bin/
+pipejump/gen/
+pipejump/tests/.settings/
+pipejump/tests/bin/
+pipejump/tests/gen/
+pipejump/tests/coverage/
+hockey/gen/
+hockey/.settings/
+hockey/bin/
+.DS_Store
+pipejump/proguard-project.txt
+pipejump/tests/proguard-project.txt
+pipejump/proguard_logs
+
+#IntelliJ IDEA
+.idea
+*.iml
+*.ipr
+*.iws
+classes
+gen-external-apklibs
+
+out
+
+#emacs
+*~
+
+# Robolectric
+pipejump/robolectric/.settings
+pipejump/robolectric/bin
+pipejump/robolectric/tmp
+
+tmp/
+
+# Code generation (Dagger currently)
+pipejump/generated
+
+# SonarQube
+.sonar
