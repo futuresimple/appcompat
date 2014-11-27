@@ -23,6 +23,7 @@ pipejump/proguard_logs
 classes
 gen-external-apklibs
 
+gen
 out
 
 #emacs
